@@ -28,8 +28,8 @@ const Footer = () => {
                 />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#c1a467]">
-                  Khurram Enterprises
+                <h3 className="text-xl sm:text-lg font-bold text-[#c1a467]">
+                  KHURRAM ENTERPRISES
                 </h3>
               </div>
             </div>

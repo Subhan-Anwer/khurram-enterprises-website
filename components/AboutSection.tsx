@@ -1,3 +1,4 @@
+import { LuShieldCheck } from "react-icons/lu";
 import { Award, Shield, TrendingUp, Users } from 'lucide-react'
 import React from 'react'
 
@@ -9,10 +10,10 @@ const AboutSection = () => {
             <div>
               <h2 className="text-4xl font-bold text-[#0c2625] mb-6">About Khurram Enterprises</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                With over 15 years of excellence in Pakistan's real estate market, Khurram Enterprises has established itself as a trusted name for premium property investments and residential solutions.
+                With over 30 years of excellence in Pakistan's real estate market, Khurram Enterprises has established itself as a trusted name for premium property investments and residential solutions.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                We specialize in luxury residential properties, commercial plots, and investment opportunities in Lahore's most prestigious locations. Our commitment to transparency, quality, and client satisfaction has earned us the trust of over 2,000+ satisfied customers.
+                We specialize in luxury residential properties, commercial plots, and investment opportunities in Karachi's most Premium locations. Our commitment to transparency, quality, and client satisfaction has earned us the trust of over 2,000+ satisfied customers.
               </p>
               
               <div className="grid grid-cols-3 gap-8 mb-8">
@@ -20,7 +21,7 @@ const AboutSection = () => {
                   <div className="bg-[#D4AF37] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Award className="w-8 h-8 text-[#0c2625]" />
                   </div>
-                  <h3 className="font-bold text-[#0c2625] text-xl">15+</h3>
+                  <h3 className="font-bold text-[#0c2625] text-xl">30+</h3>
                   <p className="text-gray-600">Years Experience</p>
                 </div>
                 <div className="text-center">
@@ -34,7 +35,7 @@ const AboutSection = () => {
                   <div className="bg-[#D4AF37] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                     <TrendingUp className="w-8 h-8 text-[#0c2625]" />
                   </div>
-                  <h3 className="font-bold text-[#0c2625] text-xl">₨500B+</h3>
+                  <h3 className="font-bold text-[#0c2625] text-xl">Rs500M+</h3>
                   <p className="text-gray-600">Deals Closed</p>
                 </div>
               </div>
@@ -45,8 +46,8 @@ const AboutSection = () => {
                 alt="Khurram Enterprises Team"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
-              <div className="absolute -bottom-6 -right-6 bg-[#0c2625] text-white p-6 rounded-xl shadow-xl">
-                <Shield className="w-8 h-8 text-[#D4AF37] mb-2" />
+              <div className="absolute -bottom-6 -right-3 bg-[#0c2625] text-white p-6 rounded-xl shadow-xl">
+                <LuShieldCheck className="w-8 h-8 text-[#D4AF37] mb-2" />
                 <p className="font-bold">Trusted & Verified</p>
                 <p className="text-sm text-gray-300">100% Genuine Deals</p>
               </div>

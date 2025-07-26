@@ -6,12 +6,12 @@ const FeaturedSection = () => {
     const featuredProperties = [
     {
       id: 1,
-      image: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Luxury Villa in DHA Phase 5',
-      location: 'DHA Phase 5, Lahore',
-      size: '500 sq yards',
+      image: '/web-image-1.jpg',
+      title: 'Luxury Bungalow in DHA',
+      location: 'DHA  Phase VIII, Karachi',
+      size: '1000 sq yards',
       price: '₨ 8.5 Crore',
-      type: 'Villa'
+      type: 'Bungalow'
     },
     {
       id: 2,
@@ -66,7 +66,7 @@ const FeaturedSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-[#0c2625] mb-4">Featured Properties</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Discover our handpicked selection of premium properties in Lahore's most sought-after locations
+              Discover our handpicked selection of premium properties in Karachi's most sought-after locations
             </p>
           </div>
           
@@ -79,7 +79,7 @@ const FeaturedSection = () => {
                     alt={property.title}
                     className="w-full h-64 object-cover"
                   />
-                  <div className="absolute top-4 left-4 bg-[#D4AF37] text-[#0c2625] px-3 py-1 rounded-full text-sm font-semibold">
+                  <div className="absolute top-4 left-4 bg-[#ecbd20] text-[#0b2525] px-3 py-1 rounded-full text-sm font-semibold">
                     {property.type}
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const FeaturedSection = () => {
                     <span>{property.size}</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-2xl font-bold text-[#D4AF37]">{property.price}</span>
+                    <span className="text-2xl font-bold text-[#f5c014]">{property.price}</span>
                     <button className="bg-[#0c2625] text-white px-4 py-2 rounded-lg hover:bg-[#1a453f] transition-colors">
                       View Details
                     </button>

@@ -17,7 +17,7 @@ const HeroSection = () => {
           style={{ backgroundImage: "url('/hero-image.jpeg')" }}
           aria-label="Hero Background"
         />
-        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
         
         <div className="relative z-10 text-center text-white max-w-6xl mx-auto px-4">
           <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-bold mb-4 md:mb-6 leading-snug md:leading-tight text-center">

@@ -4,9 +4,9 @@ import React from 'react'
 const AreasOfDeal = () => {
     
   const areas = [
-    { name: 'DHA Phase 5', icon: Building2, properties: '250+ Properties' },
-    { name: 'Gulberg', icon: Home, properties: '180+ Properties' },
-    { name: 'Model Town', icon: Building2, properties: '120+ Properties' },
+    { name: 'DHA City', icon: Building2, properties: '250+ Properties' },
+    { name: 'Clifton', icon: Home, properties: '180+ Properties' },
+    { name: 'Gulistan e Jauhar', icon: Building2, properties: '120+ Properties' },
     { name: 'Bahria Town', icon: Home, properties: '300+ Properties' },
     { name: 'Johar Town', icon: Building2, properties: '90+ Properties' },
     { name: 'Cantt Area', icon: Home, properties: '75+ Properties' }
@@ -18,7 +18,7 @@ const AreasOfDeal = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-[#0c2625] mb-4">Areas We Deal In</h2>
             <p className="text-xl text-gray-600">
-              Premium locations across Lahore with proven investment potential
+              Premium locations across Karachi with proven investment potential
             </p>
           </div>
           
