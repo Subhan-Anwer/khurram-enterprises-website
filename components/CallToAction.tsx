@@ -1,6 +1,5 @@
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
-import { MessageCircle, Phone } from 'lucide-react'
 import React from 'react'
 import Link from "next/link";
 

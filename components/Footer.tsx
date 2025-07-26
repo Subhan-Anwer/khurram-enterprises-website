@@ -3,7 +3,6 @@ import { GrInstagram } from "react-icons/gr";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
-import { MdMarkEmailUnread } from "react-icons/md";
 import { IoIosMailUnread } from "react-icons/io";
 import {
 } from "lucide-react";

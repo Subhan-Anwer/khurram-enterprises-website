@@ -1,5 +1,5 @@
 import { LuShieldCheck } from "react-icons/lu";
-import { Award, Shield, TrendingUp, Users } from 'lucide-react'
+import { Award, TrendingUp, Users } from 'lucide-react'
 import React from 'react'
 
 const AboutSection = () => {
