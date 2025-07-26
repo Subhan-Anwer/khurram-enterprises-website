@@ -13,20 +13,20 @@ const HeroSection = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/hero-image.jpeg')" }}
           aria-label="Hero Background"
         />
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="absolute inset-0 bg-black opacity-40"></div>
         
         <div className="relative z-10 text-center text-white max-w-6xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Invest Smart. Live Better.
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-bold mb-4 md:mb-6 leading-snug md:leading-tight text-center">
+            Invest Smart, Live Well.
             <br />
-            <span className="text-[#D4AF37]">With Khurram Enterprises</span>
+            <span className="text-[#D4AF37] text-[32px] sm:text-3xl md:text-5xl lg:text-7xl">With Khurram Enterprises</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-12 text-gray-200">
-            Premium Properties • Trusted Deals • Real Returns
+          <p className="text-[16px] md:text-2xl mb-12 text-gray-200">
+            Premium Properties • Trusted Deals • Profitable Investments
           </p>
           
           {/* Search Bar */}
