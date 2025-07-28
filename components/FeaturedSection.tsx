@@ -9,54 +9,54 @@ const FeaturedSection = () => {
       image: '/web-image-1.jpg',
       title: 'Luxury Bungalow in DHA',
       location: 'DHA  Phase VIII, Karachi',
-      size: '1000 sq yards',
-      price: '₨ 8.5 Crore',
+      size: '1000 Square Yards',
+      price: '₨ 65 Crore',
       type: 'Bungalow'
     },
     {
       id: 2,
-      image: 'https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Modern Commercial Plaza',
-      location: 'Gulberg Main Boulevard',
-      size: '1200 sq yards',
+      image: '/web-image-2.jpg',
+      title: 'Brand New Bungalow',
+      location: 'DHA Phase VIII',
+      size: '300 Square Yards',
       price: '₨ 15 Crore',
-      type: 'Commercial'
+      type: 'Bungalow'
     },
     {
       id: 3,
-      image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/web-image-3.jpg',
       title: 'Executive Bungalow',
-      location: 'Model Town Extension',
-      size: '300 sq yards',
-      price: '₨ 4.2 Crore',
+      location: 'DHA Phase VIII A',
+      size: '666 Square Yards',
+      price: '₨ 25 Crore',
       type: 'Bungalow'
     },
     {
       id: 4,
-      image: 'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Premium Plot',
-      location: 'Bahria Town Phase 8',
-      size: '250 sq yards',
-      price: '₨ 2.8 Crore',
-      type: 'Plot'
+      image: '/web-image-4.jpg',
+      title: 'Commercial Building',
+      location: 'DHA Phase VIII Murtaza Comm.',
+      size: '100 Square Yards',
+      price: '₨ 70 Crore',
+      type: 'Building'
     },
     {
       id: 5,
-      image: 'https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Luxury Apartment',
-      location: 'Emporium Mall Area',
-      size: '180 sq yards',
-      price: '₨ 3.5 Crore',
-      type: 'Apartment'
+      image: '/web-image-5.jpg',
+      title: 'Jori Bungalow',
+      location: 'Off Khy-e-Hilal, Phase VII',
+      size: '1000 (500+500) Square Yards',
+      price: '₨ 40 Crore',
+      type: 'Bungalow'
     },
     {
       id: 6,
       image: 'https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=800',
       title: 'Corporate Office',
-      location: 'Johar Town Commercial',
+      location: 'Bahria Town',
       size: '800 sq yards',
       price: '₨ 12 Crore',
-      type: 'Commercial'
+      type: 'Bungalow'
     }
   ];
 

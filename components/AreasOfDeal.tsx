@@ -4,12 +4,12 @@ import React from 'react'
 const AreasOfDeal = () => {
     
   const areas = [
+    { name: 'DHA All Phases', icon: Building2, properties: '550+ Properties' },
     { name: 'DHA City', icon: Building2, properties: '250+ Properties' },
     { name: 'Clifton', icon: Home, properties: '180+ Properties' },
-    { name: 'Gulistan e Jauhar', icon: Building2, properties: '120+ Properties' },
+    { name: 'Bath Island', icon: Building2, properties: '120+ Properties' },
     { name: 'Bahria Town', icon: Home, properties: '300+ Properties' },
-    { name: 'Johar Town', icon: Building2, properties: '90+ Properties' },
-    { name: 'Cantt Area', icon: Home, properties: '75+ Properties' }
+    { name: 'PECHS', icon: Building2, properties: '90+ Properties' },
   ];
 
   return (

@@ -40,10 +40,18 @@ const HeroSection = () => {
                   onChange={(e) => setSearchFilters({...searchFilters, location: e.target.value})}
                 >
                   <option value="">Select Location</option>
-                  <option value="dha">DHA Phase 5</option>
-                  <option value="gulberg">Gulberg</option>
-                  <option value="model-town">Model Town</option>
-                  <option value="bahria">Bahria Town</option>
+                  <option value="dha-phase-1">DHA Phase 1</option>
+                  <option value="dha-phase-2">DHA Phase 2</option>
+                  <option value="dha-phase-4">DHA Phase 4</option>
+                  <option value="dha-phase-5">DHA Phase 5</option>
+                  <option value="dha-phase-6">DHA Phase 6</option>
+                  <option value="dha-phase-7">DHA Phase 7</option>
+                  <option value="dha-phase-8">DHA Phase 8</option>
+                  <option value="clifton">Clifton</option>
+                  <option value="bath-island">Bath Island</option>
+                  <option value="bahria-town">Bahria Town</option>
+                  <option value="pechs">PECHS</option>
+                  <option value="dha-city">DHA City</option>
                 </select>
               </div>
               <div>
@@ -54,7 +62,7 @@ const HeroSection = () => {
                   onChange={(e) => setSearchFilters({...searchFilters, propertyType: e.target.value})}
                 >
                   <option value="">Select Type</option>
-                  <option value="villa">Villa</option>
+                  <option value="apartment">Apartment</option>
                   <option value="bungalow">Bungalow</option>
                   <option value="plot">Plot</option>
                   <option value="commercial">Commercial</option>
@@ -68,10 +76,13 @@ const HeroSection = () => {
                   onChange={(e) => setSearchFilters({...searchFilters, squareYards: e.target.value})}
                 >
                   <option value="">Select Size</option>
-                  <option value="100-200">100-200 sq yards</option>
-                  <option value="200-300">200-300 sq yards</option>
-                  <option value="300-500">300-500 sq yards</option>
-                  <option value="500+">500+ sq yards</option>
+                  <option value="100-200">100-200 Square Yards</option>
+                  <option value="200-300">200-300 Square Yards</option>
+                  <option value="300-500">300-500 Square Yards</option>
+                  <option value="500-600">500-600 Square Yards</option>
+                  <option value="666">666 Square Yards</option>
+                  <option value="1000">1000 Square Yards</option>
+                  <option value="2000">2000 Square Yards</option>
                 </select>
               </div>
               <button className="bg-[#D4AF37] text-[#0c2625] p-4 rounded-lg font-bold text-lg hover:bg-[#B8860B] transition-colors flex items-center justify-center space-x-2">
